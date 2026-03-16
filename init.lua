@@ -43,6 +43,8 @@ require('lazy').setup({
     },
     keys = {
       { "<leader>ff", "<cmd>FzfLua files<CR>" },
+      { "<leader>lg", "<cmd>FzfLua live_grep<CR>" },
+      { "<leader>rr", "<cmd>FzfLua resume<CR>" },
       { "<leader><leader>", "<cmd>FzfLua buffers<CR>" },
     }
     ---@diagnostic enable: missing-fields
